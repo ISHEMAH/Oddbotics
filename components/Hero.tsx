@@ -19,7 +19,7 @@ const Hero = () => {
                 alt="Pink"
                 width={20}
                 height={20}
-                className='absolute top-0 left-0'
+                className='absolute top-0 rotate left-0'
 
             />
             <Image
@@ -27,7 +27,7 @@ const Hero = () => {
                 alt="yellow"
                 width={20}
                 height={20}
-                className='absolute top-64 left-0'
+                className='absolute top-64 rotate left-0'
 
             />
             <Image
@@ -35,7 +35,7 @@ const Hero = () => {
                 alt="blue"
                 width={20}
                 height={20}
-                className='absolute -top-5 right-0'
+                className='absolute -top-5 rotate right-0'
 
             />
             <Image
@@ -43,7 +43,7 @@ const Hero = () => {
                 alt="red"
                 width={20}
                 height={20}
-                className='absolute -bottom-6 right-0'
+                className='absolute -bottom-6 rotate right-0'
 
             />
 
@@ -60,7 +60,7 @@ const Hero = () => {
 
         <Three/>
         <Image
-            className='absolute bottom-0 lg:w-52 right-0 md:flex hidden'
+            className='absolute bottom-0  lg:w-52 right-0 md:flex hidden'
             src='left.svg'
             width={150} height={90}
             alt='right'

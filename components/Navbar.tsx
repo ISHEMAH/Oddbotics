@@ -11,7 +11,7 @@ interface NavbarProps {
 const Navbar = ({menuClick}:NavbarProps) => {
 
   return (
-    <nav className='flex justify-between fixed w-full lg:px-24 backdrop-blur-md bg-white/30 px-3 items-center h-24 border '>
+    <nav className='flex justify-between fixed w-full lg:px-24 backdrop-blur-md bg-white/30 px-3 items-center lg:h-24 h-16 border z-50'>
         <Link href="/">
       <div className='logo flex w-fit justify-between items-center'>
         <Image 

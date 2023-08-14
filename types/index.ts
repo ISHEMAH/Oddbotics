@@ -10,3 +10,7 @@ export interface CustomButtonProps {
     rightIcon?:string;
     isDisabled?:boolean;
 }
+
+export interface HeaderProps {
+    heading:string;
+}

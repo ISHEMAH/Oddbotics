@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Navbar }from '@/components'; 
 import { Sidebar } from '@/components';
 import {Hero} from '@/components';
+import {Aboutus} from '@/components'
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
   // Define the menuClick function
   const toggleMenu = () => {
     setMenu(!menu);
-    console.log(menu)
+    
   }
 
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Navbar menuClick={toggleMenu} />
       {menu && <Sidebar menuClick={toggleMenu}/>}
       <Hero/>
+      <Aboutus/>
     </main>
   );
 }
