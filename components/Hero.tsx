@@ -13,7 +13,7 @@ const Hero = () => {
       <CustomButton title='Get Started' containerStyles='mt-10 px-5'/>
     </div>
     <div className='w-full mt-16 relative flex  justify-center'>
-        <div className='absolute w-96 h-96'>
+        <div className='absolute md:w-[640px] w-11/12 h-[440px] '>
             <Image
                 src='pink.svg'
                 alt="Pink"
@@ -27,7 +27,7 @@ const Hero = () => {
                 alt="yellow"
                 width={20}
                 height={20}
-                className='absolute top-64 -left-4'
+                className='absolute top-64 left-0'
 
             />
             <Image
@@ -43,7 +43,7 @@ const Hero = () => {
                 alt="red"
                 width={20}
                 height={20}
-                className='absolute -bottom-6 -right-10'
+                className='absolute -bottom-6 right-0'
 
             />
 
