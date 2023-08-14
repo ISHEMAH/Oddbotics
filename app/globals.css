@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  background-color: white;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; } 
+  100% { opacity: 1; }
+}
+@keyframes slide-in {
+  0% { width: 0; } 
+  100% { width: 24rem;}
+}
+.slidein {
+  animation: slide-in 0.5s ease forwards,fade-in .2s linear forwards ;
+  transition: all;
+  transition-timing-function: ease-out;
+}
+.fadein{
+  animation : fade-in .5s ease forwards ;
+}
