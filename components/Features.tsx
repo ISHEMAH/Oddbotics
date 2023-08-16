@@ -15,7 +15,7 @@ const Features = () => {
             alt='zig'
             className='absolute -left-9 -top-10'
         />
-        <div className='w-full z-10 flex overflow-x-scroll mt-6 gap-5 lg:px-9 p-3'>
+        <div className='w-full z-10 scroll flex overflow-x-scroll mt-6 gap-5 lg:px-9 p-3'>
           {AllFeatures.map((feature) => (
             <FeatureCard 
              featureCover={feature.coverpath}

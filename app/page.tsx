@@ -7,6 +7,7 @@ import { Sidebar } from '@/components';
 import {Hero} from '@/components';
 import {Aboutus} from '@/components'
 import {Features} from '@/components'
+import {Pricing} from '@/components'
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <Hero/>
       <Aboutus/>
       <Features/>
+      <Pricing/>
     </main>
   );
 }

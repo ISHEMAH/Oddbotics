@@ -6,7 +6,8 @@ import Three from "./Three";
 import Header from "./Header";
 import Aboutus from "./Aboutus";
 import Features from "./Features";
+import Pricing from "./Pricing";
 
 export {
-    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features
+    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing
 }

@@ -7,11 +7,13 @@
 body{
   background-color: white;
   font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 *{
   font-family: 'Montserrat', sans-serif;
 }
+
+
 
 @keyframes fade-in {
   0% { opacity: 0; } 
