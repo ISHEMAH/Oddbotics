@@ -6,6 +6,7 @@ import { Navbar }from '@/components';
 import { Sidebar } from '@/components';
 import {Hero} from '@/components';
 import {Aboutus} from '@/components'
+import {Features} from '@/components'
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       {menu && <Sidebar menuClick={toggleMenu}/>}
       <Hero/>
       <Aboutus/>
+      <Features/>
     </main>
   );
 }

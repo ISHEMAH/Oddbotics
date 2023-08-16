@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Header = ({heading}:HeaderProps) => {
   return (
     <div className='relative w-64 h-24 items-center flex mb-5 justify-center'>
-        <div className='w-14 h-14 border border-black absolute  backdrop-blur-sm  bg-black/30 over rounded-full '></div>
+        <div className='w-14 h-14 border border-black absolute  backdrop-blur-md  bg-black/30 over rounded-full '></div>
         <div className='w-3/4 items-center flex relative justify-center '>
                 <Image
                     src="one.svg"

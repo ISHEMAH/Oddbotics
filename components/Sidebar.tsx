@@ -10,7 +10,7 @@ interface SidebarProps {
 
 const Sidebar = ({menuClick}:SidebarProps) => {
   return (
-    <div className='backdrop-blur-md  fadein bg-black/30 w-full h-full z-50 fixed'>
+    <div className='backdrop-blur-md fadein bg-black/30 w-full h-full z-50 fixed'>
       <nav className=' bg-white w-96 p-4 slidein h-full relative rounded-tr-3xl rounded-br-3xl'>
       <Link href="/">
       <div className='logo flex w-fit justify-between items-center'>
@@ -25,7 +25,7 @@ const Sidebar = ({menuClick}:SidebarProps) => {
       </Link>
       <div className='flex-col flex pt-16 w-fit pl-10 gap-10' >
         {navLinks.map((link) => (
-            <Link href={link.path} className='text-gray-600 font-medium text-md  cursor-pointer'>{link.title}</Link>
+            <Link href={link.path} key={link.title} className='text-gray-600 hover:text-black font-medium text-md  cursor-pointer'>{link.title}</Link>
         )
         )}
       </div>

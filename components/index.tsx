@@ -5,7 +5,8 @@ import Hero from "./Hero";
 import Three from "./Three";
 import Header from "./Header";
 import Aboutus from "./Aboutus";
+import Features from "./Features";
 
 export {
-    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus
+    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features
 }

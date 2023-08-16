@@ -11,6 +11,12 @@ export interface CustomButtonProps {
     isDisabled?:boolean;
 }
 
+export interface FeatureCardProps{
+    featureTitle : string,
+    featureDescription:string,
+    featureCover:string
+}
+
 export interface HeaderProps {
     heading:string;
 }

@@ -25,7 +25,7 @@ const Navbar = ({menuClick}:NavbarProps) => {
       </Link>
       <div className='lg:flex hidden w-fit gap-6' >
         {navLinks.map((link) => (
-            <Link href={link.path} className='text-gray-600 font-medium text-sm cursor-pointer'>{link.title}</Link>
+            <Link href={link.path} key={link.title} className='text-gray-600 font-medium text-sm hover:text-black cursor-pointer'>{link.title}</Link>
         )
         )}
       </div>
