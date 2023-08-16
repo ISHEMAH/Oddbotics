@@ -24,7 +24,7 @@ export const navLinks = [
 export const AllFeatures = [
     {
         Feature:"Captcha Verification",
-        Description:"This feature allows you to verify that a user's Roblox account is linked to their Discord account. This can be useful for preventing spam or verifying the identity of users in your community.",
+        Description:"This feature allows you to verify that a user's Roblox account is linked to their Discord account. ",
         coverpath:"/captcha.png"
     },
     {
