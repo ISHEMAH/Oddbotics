@@ -56,7 +56,7 @@ export const AllFeatures = [
 
 export const PricingDetails = [
     {
-        cover:'/basic.png',
+        cover:"/basic.png",
         number:1,
         title:'Basic Plan',
         price:3,
@@ -67,7 +67,7 @@ export const PricingDetails = [
         buttonText:'1 Month Subscription'
     },
     {
-        cover:'/classic.png',
+        cover:"/classic.png",
         number:2,
         title:'Classic Plan',
         price:20,
@@ -80,7 +80,7 @@ export const PricingDetails = [
         buttonText:'1 Year Subscription'
     },
     {
-        cover:'/master.png',
+        cover:"/master.png",
         number:3,
         title:'Master Plan',
         price:10,
@@ -90,6 +90,6 @@ export const PricingDetails = [
             'Advanced analytics',
             'Extensive customer support'
         ],
-        buttonText:'4 mont Subscription'
+        buttonText:'4 month Subscription'
     },
 ]
