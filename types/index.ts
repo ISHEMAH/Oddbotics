@@ -17,6 +17,16 @@ export interface FeatureCardProps{
     featureCover:string
 }
 
+export interface PricingCardProps{
+    cover:string,
+    price:number,
+    features:string[],
+    buttonText:string,
+    number:number,
+    title:string,
+
+}
+
 export interface HeaderProps {
     heading:string;
 }
