@@ -14,7 +14,6 @@ const PricingCard = ({cover,price,features,buttonText,number,title}:PricingCardP
                 width={1000}
                 height={1000}
                 alt='basic'
-
                 className='w-full h-full absolute'
             />
             <div className='w-full z-50 absolute px-3 py-5'>
@@ -28,7 +27,7 @@ const PricingCard = ({cover,price,features,buttonText,number,title}:PricingCardP
         <div className='w-full h-3/6 px-2'>
             <div className='w-full flex'>
                 <Image
-                    src="/check.svg"
+                    src="/Check.svg"
                     alt='check'
                     width={16}
                     height={12}
