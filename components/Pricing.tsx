@@ -6,14 +6,14 @@ import { PricingDetails } from '@/constants'
 
 const Pricing = () => {
   return (
-    <div id='features'className='flex flex-col  w-full relative items-center mt-24'>
+    <div id='pricing'className='flex flex-col  w-full relative items-center mt-24'>
       <Header heading='Pricing'/>
       <Image
         src='Ellipse.svg'
         alt="ellipse"
         width={200}
         height={200}
-        className='absolute -bottom-3 left-0'
+        className='absolute -bottom-16 left-0'
       />
       <Image
         src='Ellipse2.svg'

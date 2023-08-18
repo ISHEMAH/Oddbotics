@@ -5,7 +5,7 @@ import CustomButton from './CustomButton'
 
 const Aboutus = () => {
   return (
-    <div className='W-full flex gap-5 flex-col'> 
+    <div className='W-full flex gap-5 flex-col' id='aboutus'> 
     <div className='w-full flex flex-col  items-center justify-center mt-24' id='Aboutus'>
       <Header heading='About Us'/>
       <div className='md:flex-row w-full flex justify-between flex-col '>

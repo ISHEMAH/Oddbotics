@@ -25,11 +25,11 @@ const Navbar = ({menuClick}:NavbarProps) => {
       </Link>
       <div className='lg:flex hidden w-fit gap-6' >
         {navLinks.map((link) => (
-            <Link href={link.path} key={link.title} className='text-gray-600 font-medium text-sm hover:text-black cursor-pointer'>{link.title}</Link>
+            <Link href={link.path} key={link.title} className='text-gray-600 font-medium text-sm hover:text-black smooth-scroll cursor-pointer'>{link.title}</Link>
         )
         )}
       </div>
-      <CustomButton title='Connect to Oddbotics' containerStyles='max-lg:hidden'/>
+      <CustomButton title='Connect to Oddbotics' containerStyles='max-lg:hidden text-sm'/>
       <button className='hidden max-lg:flex' onClick={menuClick}>
         <Image 
             src='menu.svg'

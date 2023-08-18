@@ -25,7 +25,7 @@ const Sidebar = ({menuClick}:SidebarProps) => {
       </Link>
       <div className='flex-col flex pt-16 w-fit pl-10 gap-10' >
         {navLinks.map((link) => (
-            <Link href={link.path} key={link.title} className='text-gray-600 hover:text-black font-medium text-md  cursor-pointer'>{link.title}</Link>
+            <Link href={link.path} key={link.title} onClick={menuClick} className='text-gray-600 hover:text-black font-medium text-md  cursor-pointer'>{link.title}</Link>
         )
         )}
       </div>

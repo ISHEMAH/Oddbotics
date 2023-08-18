@@ -6,8 +6,8 @@ import { PricingCardProps } from '@/types'
 
 const PricingCard = ({cover,price,features,buttonText,number,title}:PricingCardProps) => {
   return (
-    <div className='flex flex-col w-72 h-96 border-2 rounded-2xl bg-white p-3'>
-        <div></div>
+    <div className='flex flex-col w-72 h-96 border-2 rounded-2xl bg-white/70 p-3'>
+        
         <div className='w-full h-2/6 rounded-lg relative '>
             <Image
                 src={cover}

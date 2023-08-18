@@ -7,7 +7,9 @@ import Header from "./Header";
 import Aboutus from "./Aboutus";
 import Features from "./Features";
 import Pricing from "./Pricing";
+import Contactus from "./Contactus";
+import Testimonials from "./Testimonials";
 
 export {
-    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing
+    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials
 }

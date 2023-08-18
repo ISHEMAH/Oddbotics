@@ -27,6 +27,13 @@ export interface PricingCardProps{
 
 }
 
+export interface ContactInputProps{
+    icon:string,
+    placeholder:string,
+    type:"text"|"email"|"password"|"number",
+    name:string
+}
+
 export interface HeaderProps {
     heading:string;
 }

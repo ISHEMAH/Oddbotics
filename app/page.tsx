@@ -8,6 +8,8 @@ import {Hero} from '@/components';
 import {Aboutus} from '@/components'
 import {Features} from '@/components'
 import {Pricing} from '@/components'
+import { Contactus } from '@/components'
+import {Testimonials} from '@/components'
 
 
 export default function Home() {
@@ -27,6 +29,8 @@ export default function Home() {
       <Aboutus/>
       <Features/>
       <Pricing/>
+      <Contactus/>
+      <Testimonials/>
     </main>
   );
 }

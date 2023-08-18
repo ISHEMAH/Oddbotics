@@ -1,0 +1,14 @@
+
+.slider {
+    @apply flex items-center justify-center mx-auto;
+  }
+  
+  .slick-slide {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slick-center {
+    transform: scale(1.2);
+    /* Additional styling for the center slide */
+  }
+  
