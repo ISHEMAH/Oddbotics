@@ -10,6 +10,7 @@ import {Features} from '@/components'
 import {Pricing} from '@/components'
 import { Contactus } from '@/components'
 import {Testimonials} from '@/components'
+import {Footer} from '@/components'
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       <Pricing/>
       <Contactus/>
       <Testimonials/>
+      <Footer/>
     </main>
   );
 }

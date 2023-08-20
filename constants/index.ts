@@ -93,3 +93,36 @@ export const PricingDetails = [
         buttonText:'4 month Subscription'
     },
 ]
+
+export const SocialLinks = [
+    {
+        name : "Facebook",
+        link :"https://www.facebook.com",
+        icon: "facebook.svg"
+
+    },
+    {
+        name : "Instagram",
+        link :"https://www.instagram.com",
+        icon: "instagram.svg"
+        
+    },
+    {
+        name : "LinkedIn",
+        link :"https://www.linkedin.com",
+        icon: "linkedin.svg"
+        
+    },
+    {
+        name : "X",
+        link :"https://twitter.com/",
+        icon: "x.svg"
+        
+    },
+    {
+        name : "Discord",
+        link :"https://discord.com/",
+        icon: "discord.svg"
+        
+    },
+]

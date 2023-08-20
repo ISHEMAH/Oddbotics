@@ -10,7 +10,8 @@ import Pricing from "./Pricing";
 import Contactus from "./Contactus";
 import Testimonials from "./Testimonials";
 import PricingCard from "./PricingCard";
+import Footer from "./Footer";
 
 export {
-    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard
+    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer
 }

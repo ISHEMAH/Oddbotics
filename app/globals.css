@@ -6,7 +6,7 @@
 
 body{
   background-color: white;
-  font-family: 'Montserrat', sans-serif;
+  
   overflow-x:hidden;
   scroll-behavior: smooth;
 }
@@ -15,6 +15,9 @@ html {
 }
 
 *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
