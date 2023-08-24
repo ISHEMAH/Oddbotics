@@ -29,7 +29,9 @@ const Navbar = ({menuClick}:NavbarProps) => {
         )
         )}
       </div>
+      <Link href='/verifytoken'>
       <CustomButton title='Connect to Oddbotics' containerStyles='max-lg:hidden text-sm'/>
+      </Link>
       <button className='hidden max-lg:flex' onClick={menuClick}>
         <Image 
             src='menu.svg'
