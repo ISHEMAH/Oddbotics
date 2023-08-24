@@ -63,7 +63,7 @@ export default function Home() {
           <label htmlFor="token" className='text-gray-500 font-md'>Bot Token</label>
             <input type="text" name='token' id='token' className='w-full rounded-md border-2 focus:outline-0 focus:bg-black/10 hover:bg-black/5  py-3 indent-2'/>
          
-          <Link href='https://discord.com/developers/applications' className='underline text-blue-600 '>Don’t have a Bot Token?</Link>
+          <Link href='https://discord.com/developers/applications'target='_blank'  className='underline text-blue-600 '>Don’t have a Bot Token?</Link>
           <button type='submit' className='w-full rounded-md bg-blue-600 text-white font-bold text-md mt-10 hover:scale-95 transition-all duration-200 py-3'>Create Bot</button>
         </form>
       </div>
