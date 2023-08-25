@@ -64,7 +64,12 @@ export const PricingDetails = [
             'Text Based ChatBot',
             'Integration with Social Media'
         ],
-        buttonText:'1 Month Subscription'
+        buttonText:'1 Month Subscription',
+        color:'black',
+        bg:'bg-white',
+        button:'Black.svg',
+        otherColor:true,
+        description:'For beginners'
     },
     {
         cover:"/Classic.png",
@@ -77,7 +82,13 @@ export const PricingDetails = [
             'Advanced analytics',
             'Extensive customer support'
         ],
-        buttonText:'1 Year Subscription'
+        buttonText:'1 Year Subscription',
+        period:'Month',
+        color:'indigo-600',
+        bg:'bg-white',
+        button:'color.svg',
+        otherColor:true,
+        description:'For beginners'
     },
     {
         cover:"/Master.png",
@@ -90,7 +101,13 @@ export const PricingDetails = [
             'Advanced analytics',
             'Extensive customer support'
         ],
-        buttonText:'4 month Subscription'
+        buttonText:'4 month Subscription',
+        period:'Month',
+        bg:'bg-indigo-600/60',
+        color:'white',
+        button:'White.svg',
+        otherColor:false,
+        description:'For beginners'
     },
 ]
 

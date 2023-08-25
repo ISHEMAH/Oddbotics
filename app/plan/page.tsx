@@ -2,21 +2,17 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { PlanCard } from '@/components';
+import { PricingDetails } from '@/constants';
+
 
 
 
 export default function Home() {
-  const [menu, setMenu] = useState(false);
-
-  // Define the menuClick function
-  const toggleMenu = () => {
-    setMenu(!menu);
-    
-  }
 
   return (
     <main className='flex max-md:flex-col justify-between lg:p-7 h-full p-3'>
-      <div className='md:w-4/12  w-full gap-10 flex flex-col relative justify-between  rounded-2xl gradient'>
+      <div className='md:w-3/12  w-full gap-10 flex flex-col relative justify-between  rounded-2xl gradient'>
         <div className='p-8 w-full gap-20 flex flex-col'>
 
         
@@ -32,32 +28,26 @@ export default function Home() {
         </div>
         </Link>
         <div>
-          <h1 className='text-3xl text-white lg:text-3xl md:text-xl  font-extrabold'>Let Us Automate Your Bot</h1>
+          <h1 className='text-3xl text-white lg:text-3xl md:text-xl  font-extrabold'>Get an affordable Bot</h1>
           <p className='mt-4 max-sm:mt-2 text-white/70 '>Explore the world’s best Discord Automation Bot</p>
           </div>
         </div>
-        <Image src='side.svg' width={300} height={400} className='relative hidden md:flex left-0' alt='side'/>
+        <Image src='hey.svg' width={300} height={400} className='absolute bottom-0 hidden md:flex right-0' alt='side'/>
       </div>
-      <div className='md:w-7/12 h-full items-center max-md:mt-7 flex gap-12 flex-col justify-center w-full'>
+      <div className='md:w-8/12 h-full items-center max-md:mt-7 flex gap-12 flex-col justify-center w-full'>
         <div className='w-full flex flex-col gap-4'>
-          <h1 className='text-md font-extrabold '>Step 1</h1>
-          <p className='text-md font-medium'>Link your Bot to DDBotics</p>
+          <h1 className='text-md font-extrabold '>Step 2</h1>
+          <p className='text-md font-medium'>Select Your Plan</p>
         </div>
 
-        <div>
-          <h1 className='text-sm text-gray-500'>
-          How to get started?
-          </h1>
-          <Image src="/video.png" alt='video' width={900} height={300}/>
-        </div>
+        
+        {PricingDetails.map((plan) => (
+            <PlanCard button={plan.button} title={plan.title} description={plan.description} bg={plan.bg} period={plan.period} otherColor={plan.otherColor} features={plan.features} buttonText='Get Started'/>
+        ))}
+          
+        
 
-        <form action="" className='w-full'>
-          <label htmlFor="token" className='text-gray-500 font-md'>Bot Token</label>
-            <input type="text" name='token' id='token' className='w-full rounded-md border-2 focus:outline-0 focus:bg-black/10 hover:bg-black/5  py-3 indent-2'/>
-         
-          <Link href='https://discord.com/developers/applications'target='_blank'  className='underline text-blue-600 '>Don’t have a Bot Token?</Link>
-          <button type='submit' className='w-full rounded-md bg-blue-600 text-white font-bold text-md mt-10 hover:scale-95 transition-all duration-200 py-3'>Create Bot</button>
-        </form>
+        
       </div>
     </main>
   );

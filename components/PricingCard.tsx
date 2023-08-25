@@ -26,7 +26,8 @@ const PricingCard = ({cover,price,features,buttonText,number,title}:PricingCardP
         <h1 className='text-lg text-center font-bold text-black'>{price}USD</h1>
         </div>
         <div className='w-full h-3/6 px-2'>
-            <div className='w-full flex'>
+            {Object.values(features).map((feature,index) => (
+                        <div className='w-full flex' key={index}>
                 <Image
                     src="/Check.svg"
                     alt='check'
@@ -34,8 +35,10 @@ const PricingCard = ({cover,price,features,buttonText,number,title}:PricingCardP
                     height={12}
                 
                 />
-                    <p className='text-sm'>{features}</p>
+                    <p className='text-sm'>{feature}</p>
             </div>
+            ))}
+
 
         </div>
     <Link href='/verifytoken' className='w-full'> 

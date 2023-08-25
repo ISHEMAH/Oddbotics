@@ -17,7 +17,7 @@ const Footer = () => {
      alt='globe'
       className='absolute -left-24 bottom-0 h-4/6 max-lg:hidden'
      />
-     <div className='w-full border justify-between items-center bottom-0 lg:px-36 px-10 flex flex-wrap md:py-8 max-sm:px-2 py-3'>
+     <div className='w-full justify-between items-center bottom-0 lg:px-36 px-10 flex flex-wrap md:py-8 max-sm:px-2 py-3'>
       <div className='gap-6 flex flex-col'>
       <Link href="/">
       <div className='logo flex w-fit justify-between items-center'>

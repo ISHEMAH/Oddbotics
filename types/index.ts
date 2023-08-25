@@ -24,6 +24,22 @@ export interface PricingCardProps{
     buttonText:string,
     number:number,
     title:string,
+    
+
+}
+export interface PlanCardProps{
+    cover:string,
+    price:number,
+    features:string[],
+    buttonText:string,
+    number:number,
+    title:string,
+    period?:string
+    bg:string,
+    color:string,
+    description:string,
+    button:string,
+    otherColor:boolean
 
 }
 
