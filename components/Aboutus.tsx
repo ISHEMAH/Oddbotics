@@ -44,7 +44,7 @@ const Aboutus = () => {
             width={300}
             height={468}
             alt='astro'
-            className='absolute self-center max-sm:left-16 lg:w-7/12'
+            className='absolute self-center max-sm:right-0 lg:w-7/12'
           />
         </div>
 

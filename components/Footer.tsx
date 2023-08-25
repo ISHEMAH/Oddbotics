@@ -17,7 +17,7 @@ const Footer = () => {
      alt='globe'
       className='absolute -left-24 bottom-0 h-4/6 max-lg:hidden'
      />
-     <div className='w-full border justify-between items-center bottom-0 lg:px-36 px-10 flex flex-wrap md:py-8 py-3'>
+     <div className='w-full border justify-between items-center bottom-0 lg:px-36 px-10 flex flex-wrap md:py-8 max-sm:px-2 py-3'>
       <div className='gap-6 flex flex-col'>
       <Link href="/">
       <div className='logo flex w-fit justify-between items-center'>
@@ -42,7 +42,7 @@ const Footer = () => {
         ) )}
       </div>
       </div>
-      <div className='flex flex-col pt-10 gap-6'>
+      <div className='flex flex-col pt-10 max-sm:w-full gap-6'>
         <p>You can Subscribe now to the to and purchase our bot:</p>
         <form action="">
           <label htmlFor="subscribe">Your Email:</label>

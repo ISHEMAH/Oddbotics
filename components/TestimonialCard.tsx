@@ -2,7 +2,7 @@ import React from 'react'
 
 const TestimonialCard = () => {
   return (
-    <div className='w-96 h-72 border-2 flex p-8 flex-col justify-between bg-violet-400/10 border-violet-400 rounded-2xl' id='testimonials'>
+    <div className='w-96 h-72 max-sm:w-full border-2 flex p-8 flex-col justify-between bg-violet-400/10 border-violet-400 rounded-2xl' id='testimonials'>
       <div className='relative flex items-center w-full h-4/6 justify-center '>
         <h1 className='absolute -top-4 -left-3 text-6xl text-indigo-600'>"</h1>
         <h1 className='absolute -bottom-8 -right-1 text-6xl text-indigo-600'>"</h1>

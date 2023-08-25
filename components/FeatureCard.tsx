@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import CustomButton from './CustomButton'
 import { FeatureCardProps } from '@/types'
+import Link from 'next/link'
 
 const FeatureCard = ({featureCover,featureDescription,featureTitle}:FeatureCardProps) => {
   return (
@@ -19,7 +20,10 @@ const FeatureCard = ({featureCover,featureDescription,featureTitle}:FeatureCardP
         <div className='w-80 h-3/6 p-3 rounded-b-3xl flex backdrop-blur-md justify-between flex-col'>
             <h1 className='font-semibold'>{featureTitle}</h1>
             <p className='text-sm'>{featureDescription}</p>
+            <Link href='/verifytoken'>
             <CustomButton title='Purchase'/>
+            </Link>
+            
         </div>
       
     </div>

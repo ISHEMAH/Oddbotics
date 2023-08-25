@@ -13,7 +13,7 @@ const CustomButton = ({
     <button
       disabled={false}
       type={"button"}
-      className={`bg-indigo-600 rounded-xl hover:bg-white  lg:p-3 p-2 hover:bg-transparent hover:border-indigo-600  ease-out duration-300 group hover:border ${containerStyles}`}
+      className={`bg-indigo-600 rounded-xl hover:bg-white  lg:p-3 p-2 hover:bg-transparent border-indigo-600  ease-out duration-300 group border ${containerStyles}`}
       onClick={handleClick}
     >
       <span

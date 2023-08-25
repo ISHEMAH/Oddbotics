@@ -29,7 +29,10 @@ const Sidebar = ({menuClick}:SidebarProps) => {
         )
         )}
       </div>
-      <CustomButton title='Connect to Oddbotics' containerStyles='absolute bottom-4 w-80 self-center'/>
+      <Link href='/verifytoken' className='w-full'>
+       <CustomButton title='Connect to Oddbotics' containerStyles='absolute bottom-4 w-10/12 self-center'/>
+      </Link>
+     
 
 
       </nav>

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import CustomButton from './CustomButton'
 import { PricingCardProps } from '@/types'
+import Link from 'next/link'
 
 
 const PricingCard = ({cover,price,features,buttonText,number,title}:PricingCardProps) => {
@@ -37,8 +38,9 @@ const PricingCard = ({cover,price,features,buttonText,number,title}:PricingCardP
             </div>
 
         </div>
-        <CustomButton title={buttonText} containerStyles='rounded-b-xl'/>
-
+    <Link href='/verifytoken' className='w-full'> 
+        <CustomButton title={buttonText} containerStyles='rounded-b-xl w-full'/>
+    </Link>
       
     </div>
   )

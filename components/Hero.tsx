@@ -5,11 +5,11 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div id='home' className='w-full flex flex-col pt-36 items-center '>
+    <div id='home' className='w-full flex flex-col max-sm:pt-20 pt-36 items-center '>
     <div className='w-full flex flex-col items-center relative'>
         <h1 className='text-center sm:text-5xl text-4xl font-semibold'>Enjoy new release at</h1>
       <h1 className='text-center sm:text-5xl text-3xl font-bold mt-5 text-indigo-600'>ODDBOTICS</h1>
-      <p className='text-gray-600 text-center md:text-lg md:mt-16 mt-8 max-lg:w-3/4 w-8/12'>Welcome to DDBotics, your one-stop solution for all your bot needs. Our platform provides you with advanced and user-friendly bot services to help you automate your business processes, improve customer engagement, and streamline your operations.</p>
+      <p className='text-gray-600 sm:text-sm text-center md:text-lg md:mt-16 mt-8 max-lg:w-3/4 w-8/12'>Welcome to DDBotics, your one-stop solution for all your bot needs. Our platform provides you with advanced and user-friendly bot services to help you automate your business processes, improve customer engagement, and streamline your operations.</p>
       <CustomButton title='Get Started' containerStyles='mt-10 px-5 hover:relative'/>
     </div>
     <div className='w-full mt-16 relative flex  justify-center'>
