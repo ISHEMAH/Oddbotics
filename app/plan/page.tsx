@@ -40,10 +40,12 @@ export default function Home() {
           <p className='text-md font-medium'>Select Your Plan</p>
         </div>
 
-        
-        {PricingDetails.map((plan) => (
-            <PlanCard button={plan.button} title={plan.title} description={plan.description} bg={plan.bg} period={plan.period} otherColor={plan.otherColor} features={plan.features} buttonText='Get Started'/>
+        <div className='lg:flex-row flex flex-col gap-10'>
+          {PricingDetails.map((plan) => (
+            <PlanCard color={plan.color} number={plan.price} price={plan.price} cover={plan.cover} button={plan.button} title={plan.title} description={plan.description} bg={plan.bg} period={plan.period} otherColor={plan.otherColor} features={plan.features} buttonText='Get Started'/>
         ))}
+        </div>
+        
           
         
 

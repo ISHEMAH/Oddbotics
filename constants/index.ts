@@ -103,7 +103,7 @@ export const PricingDetails = [
         ],
         buttonText:'4 month Subscription',
         period:'Month',
-        bg:'bg-indigo-600/60',
+        bg:'bg-indigo-700',
         color:'white',
         button:'White.svg',
         otherColor:false,
