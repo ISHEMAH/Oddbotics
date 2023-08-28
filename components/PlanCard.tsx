@@ -8,7 +8,7 @@ import { PlanCardProps } from '@/types'
 const PlanCard = ({title,description,color,bg,features,number,button,otherColor}:PlanCardProps) => {
   return (
 
-    <div className={`'flex w-72 flex-col gap-10 border relative border-gray 500 bg-indigo-70 p-6 ${bg}`}>
+    <div className={`flex w-72 flex-col gap-10 border relativ rounded-xl border-gray 500 p-6 ${otherColor ? "bg-white" :"bg-indigo-600"}`}>
        
         <div className='z-50 w-full h-full gap-8 flex flex-col bg-transparent'>
 
