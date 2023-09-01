@@ -48,6 +48,7 @@ export interface ContactInputProps{
     placeholder:string,
     type:"text"|"email"|"password"|"number",
     name:string
+    fullWidth?:boolean
 }
 
 export interface HeaderProps {
