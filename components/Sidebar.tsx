@@ -11,7 +11,7 @@ interface SidebarProps {
 const Sidebar = ({menuClick}:SidebarProps) => {
   return (
     <div className='backdrop-blur-md fadein bg-black/30 w-full h-full z-50 fixed'>
-      <nav className=' bg-white w-96 p-4 slidein h-full relative rounded-tr-3xl rounded-br-3xl'>
+      <nav className='bg-white w-96 p-4 slidein h-full relative rounded-tr-3xl rounded-br-3xl'>
       <Link href="/">
       <div className='logo flex w-fit justify-between items-center'>
         <Image 

@@ -6,7 +6,6 @@
 
 body{
   background-color: white;
-  
   overflow-x:hidden;
   scroll-behavior: smooth;
 }
@@ -14,7 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 .gradient{
-  background: linear-gradient(136deg, #5200FF 0%, #0059FF 100%);
+  background: linear-gradient(136deg, #5200FF 0%, #0059FF 100%); 
 }
 *{
   margin: 0;

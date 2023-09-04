@@ -39,7 +39,8 @@ export interface PlanCardProps{
     color:string,
     description:string,
     button:string,
-    otherColor:boolean
+    otherColor:boolean,
+    pagelink:string
 
 }
 

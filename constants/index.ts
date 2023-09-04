@@ -69,7 +69,8 @@ export const PricingDetails = [
         bg:'bg-white',
         button:'Black.svg',
         otherColor:true,
-        description:'For beginners'
+        description:'For beginners',
+        pagelink:"/plan/basicplan"
     },
     {
         cover:"/Classic.png",
@@ -88,7 +89,8 @@ export const PricingDetails = [
         bg:'bg-white',
         button:'color.svg',
         otherColor:true,
-        description:'For beginners'
+        description:'For beginners',
+        pagelink:'/plan/classicplan'
     },
     {
         cover:"/Master.png",
@@ -107,7 +109,8 @@ export const PricingDetails = [
         color:'white',
         button:'White.svg',
         otherColor:false,
-        description:'For beginners'
+        description:'For beginners',
+        pagelink:'/plan/masterplan'
     },
 ]
 

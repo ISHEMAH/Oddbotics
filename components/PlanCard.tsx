@@ -5,7 +5,7 @@ import { PricingDetails } from '@/constants'
 import { PlanCardProps } from '@/types'
 
 
-const PlanCard = ({title,description,color,bg,features,number,button,otherColor}:PlanCardProps) => {
+const PlanCard = ({title,description,color,bg,features,number,button,otherColor,pagelink}:PlanCardProps) => {
   return (
 
     <div className={`flex w-72 flex-col gap-10 border relativ rounded-xl border-gray 500 p-6 ${otherColor ? "bg-white" :"bg-indigo-600"}`}>
@@ -18,9 +18,9 @@ const PlanCard = ({title,description,color,bg,features,number,button,otherColor}
         <p className={`text-gray ${otherColor ? "text-gray-600": "text-white"}`}>{description}</p>
         </div>
         <div className='w-full flex items-center justify-center'>
-            <h1 className={`text-4xl font-extrabold text-${color}`}>$<span className={`font-extrabolb text-9xl text-${color}`}>{number}</span></h1>
+            <h1 className={`text-4xl font-extrabold text-${color}`}>$<span className={`font-extrabold text-9xl text-${color}`}>{number}</span></h1>
         </div>
-        <Link href='/' className='w-full'>
+        <Link href={pagelink} className='w-full'>
             <div className='relative w-full hover:scale-95 transition-all duration-200 flex items-center justify-center'>
                 <Image className='absolute w-full' src={button} alt='button' width={30} height={60}/>
                 <span className={` font-bold z-10 ${otherColor ? "text-white": "text-indigo-600"}`}>Purchase</span>
@@ -35,7 +35,8 @@ const PlanCard = ({title,description,color,bg,features,number,button,otherColor}
                     src="/Check.svg"
                     alt='check'
                     width={16}
-                    height={12}
+                    height={12}     
+
                 
                 />
                     <p className={`text-sm ${otherColor ? "text-gray-600": "text-white"}`}>{feature}</p>

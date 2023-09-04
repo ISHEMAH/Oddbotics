@@ -42,7 +42,7 @@ export default function Home() {
 
         <div className='lg:flex-row flex flex-col gap-10'>
           {PricingDetails.map((plan) => (
-            <PlanCard color={plan.color} number={plan.price} price={plan.price} cover={plan.cover} button={plan.button} title={plan.title} description={plan.description} bg={plan.bg} period={plan.period} otherColor={plan.otherColor} features={plan.features} buttonText='Get Started'/>
+            <PlanCard color={plan.color} number={plan.price} pagelink={plan.pagelink} price={plan.price} cover={plan.cover} button={plan.button} title={plan.title} description={plan.description} bg={plan.bg} period={plan.period} otherColor={plan.otherColor} features={plan.features} buttonText='Get Started'/>
         ))}
         </div>
         
