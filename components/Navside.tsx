@@ -26,7 +26,9 @@ const Navside = () => {
           <Image src='/dashlogo.svg' width={30} height={30} alt='logo'/>
           <h1 className='font-bold text-sm ml-2 text-indigo-600'>My bot</h1>
         </div>
-        
+        <div className='w-fit cursor-pointer mr-3 hover:scale-105 transition-all duration-150'>
+          <Image src='/edit.svg' alt='edit' width={20} height={20}/>
+        </div>
       </div>
 
 
