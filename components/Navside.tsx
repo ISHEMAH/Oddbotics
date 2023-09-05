@@ -21,7 +21,11 @@ const Navside = () => {
             <h1>Bot</h1>
         </div>
       </div>
-      <div>
+      <div className='w-full h-12 bg-indigo-600/20 mt-10 rounded-full flex p-2 justify-between items-center'>
+        <div className='flex items-center'>
+          <Image src='/dashlogo.svg' width={30} height={30} alt='logo'/>
+          <h1 className='font-bold text-sm ml-2 text-indigo-600'>My bot</h1>
+        </div>
         
       </div>
 
