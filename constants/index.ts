@@ -146,3 +146,84 @@ export const SocialLinks = [
         
     },
 ]
+
+export const MainLinks=[
+    {
+        icon:'customcommand.svg',
+        title:'Custom Command',
+        link:'/dashboard/customcommand'
+    },
+    {
+        icon:'membertracker.svg',
+        title:'Member Tracker',
+        link:'/dashboard/membertracker'
+    },
+    {
+        icon:'memberfield.svg',
+        title:'Member Field',
+        link:'/dashboard/memberfield'
+    },
+    {
+        icon:'customwelcomer.svg',
+        title:'Custom Welcomer',
+        link:'/dashboard/customwelcome'
+    },
+    {
+        icon:'faq.svg',
+        title:'FAQ',
+        link:'/dashboard/faq'
+    },
+    {
+        icon:'guide.svg',
+        title:'Guide',
+        link:'/dashboard/guide'
+    },
+    {
+        icon:'plan.svg',
+        title:'Plan',
+        link:'/dashboard/plan'
+    },
+    {
+        icon:'errorlogs.svg',
+        title:'Error Logs',
+        link:'/dashboard/errorlogs'
+    },
+    {
+        icon:'helpsupport.svg',
+        title:'Help & Support',
+        link:'/dashboard/helpsupport'
+    },
+    {
+        icon:'supportserver.svg',
+        title:'Support server',
+        link:'/dashboard/supportserver'
+    },
+]
+
+export const FeaturedLinks=[
+    {
+        icon:'musicicon.svg',
+        title:'Music',
+        link:'/dashboard/music'
+    },
+    {
+        icon:'giveawaysicon.svg',
+        title:'Giveaways',
+        link:'/dashboard/giveaways'
+    },
+    {
+        icon:'ticketsicon.svg',
+        title:'Tickets',
+        link:'/dashboard/tickets'
+    },
+    {
+        icon:'serveranalyticsicon.svg',
+        title:'Server Analytics',
+        link:'/dashboard/serveranalytics'
+    },
+    {
+        icon:'announcementsicon.svg',
+        title:'Announcements',
+        link:'/dashboard/announcements'
+    },
+]

@@ -55,3 +55,14 @@ export interface ContactInputProps{
 export interface HeaderProps {
     heading:string;
 }
+export interface MenuCardProps{
+    icon:string,
+    title:string,
+    link:string,
+    active:string
+
+}
+export interface NavsideProps{
+    editClick: () => void;
+    botName: string;
+}

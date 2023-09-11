@@ -14,7 +14,8 @@ import Footer from "./Footer";
 import PlanCard from "./PlanCard";
 import ContactInput from "./ContactInput";
 import Editname from "./Editname";
+import MenuCard from "./MenuCard";
 
 export {
-    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput
+    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput,MenuCard,Editname
 }
