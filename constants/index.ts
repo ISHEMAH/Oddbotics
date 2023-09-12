@@ -114,6 +114,199 @@ export const PricingDetails = [
     },
 ]
 
+export const Members = [
+    {   id:1,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:2,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            'golden community',
+
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:3,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'chef technology officer',
+            'golden community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:4,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:5,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            'golden community',
+
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:6,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'chef technology officer',
+            'golden community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {   id:7,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:8,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            'golden community',
+
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:9,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'chef technology officer',
+            'golden community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:10,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:11,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            'golden community',
+
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:12,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'chef technology officer',
+            'golden community',
+            
+        ],
+        date:'June 7,2030'
+    }
+    ,
+    {   id:13,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:14,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            'golden community',
+
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:15,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'chef technology officer',
+            'golden community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:16,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:17,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'community',
+            'golden community',
+
+        ],
+        date:'June 7,2030'
+    },
+    {
+        id:18,
+        name:'Marcus_324',
+        profile:'/profile.png',
+        roles:[
+            'chef technology officer',
+            'golden community',
+            
+        ],
+        date:'June 7,2030'
+    }
+]
+
 export const SocialLinks = [
     {
         name : "Facebook",

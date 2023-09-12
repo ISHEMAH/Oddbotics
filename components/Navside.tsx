@@ -9,7 +9,7 @@ import { FeaturedLinks } from '@/constants';
 
 
 
-const Navside = ({ editClick, botName}: NavsideProps) => {
+const Navside = ({ editClick, botName,active}: NavsideProps) => {
   return (
     <nav className='bg-white lg:w-3/12 w-80 p-4 h-screen relative overflow-scroll items-center flex flex-col rounded-tr-3xl rounded-br-3xl'>
       <div className='w-full sticky bg-white/10'>
@@ -38,11 +38,11 @@ const Navside = ({ editClick, botName}: NavsideProps) => {
       <div className='w-full flex flex-col items-center mt-7'>
         <h1 className='text-[#A57AFF] w-full mb-4 font-normal text-md'>Main</h1>
         {MainLinks.map((link)=>(
-          <MenuCard icon={link.icon} title={link.title} link={link.link} active='Custom Command'/>
+          <MenuCard icon={link.icon} title={link.title} link={link.link} active={active}/>
         ))}
          <h1 className='text-[#A57AFF] w-full mb-4 font-normal text-md'>Main</h1>
         {FeaturedLinks.map((link)=>(
-          <MenuCard icon={link.icon} title={link.title} link={link.link} active='Custom Command'/>
+          <MenuCard icon={link.icon} title={link.title} link={link.link} active={active}/>
         ))}
         
       </div>

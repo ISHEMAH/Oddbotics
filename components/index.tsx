@@ -18,7 +18,8 @@ import MenuCard from "./MenuCard";
 import Heading from "./Heading";
 import InputElement from "./InputElement";
 import Command from "./Command";
+import Member from "./Member";
 
 export {
-    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput,MenuCard,Editname,Heading,InputElement,Command
+    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput,MenuCard,Editname,Heading,InputElement,Command,Member
 }

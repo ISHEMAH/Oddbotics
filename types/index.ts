@@ -65,10 +65,23 @@ export interface MenuCardProps{
 export interface NavsideProps{
     editClick: () => void;
     botName: string;
+    active:string
 }
 export interface InputProps{
     placeholder:string,
     type:'text'|'email',
     label:string,
     name:string
+}
+
+export interface HeadingProps{
+    icon:string,
+    description:string,
+    title:string
+}
+export interface MemberProps{
+    image:string,
+    name:string,
+    roles:string[],
+    date:string
 }
