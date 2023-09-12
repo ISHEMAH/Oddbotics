@@ -15,7 +15,10 @@ import PlanCard from "./PlanCard";
 import ContactInput from "./ContactInput";
 import Editname from "./Editname";
 import MenuCard from "./MenuCard";
+import Heading from "./Heading";
+import InputElement from "./InputElement";
+import Command from "./Command";
 
 export {
-    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput,MenuCard,Editname
+    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput,MenuCard,Editname,Heading,InputElement,Command
 }

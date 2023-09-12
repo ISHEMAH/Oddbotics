@@ -49,7 +49,7 @@ export interface ContactInputProps{
     placeholder:string,
     type:"text"|"email"|"password"|"number",
     name:string
-    fullWidth?:boolean
+    Width?:string
 }
 
 export interface HeaderProps {
@@ -65,4 +65,10 @@ export interface MenuCardProps{
 export interface NavsideProps{
     editClick: () => void;
     botName: string;
+}
+export interface InputProps{
+    placeholder:string,
+    type:'text'|'email',
+    label:string,
+    name:string
 }
