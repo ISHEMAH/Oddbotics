@@ -31,7 +31,7 @@ export default function Home() {
       {editClick && <Editname editClick={toggleEdit} setBotName={handleBotName} />}
       <Container>
         <Heading icon='/whitemembertracker.svg' title='Members' description='View your server members'/>
-        <div className='w-full flex flex-col mt-6'>
+        <div className='w-full flex flex-col  mt-6'>
         <div className='flex justify-between w-full items-center'>
             <h1 className='font-bold text-lg '>Members</h1>
             <form action="" className='w-60'>
@@ -41,27 +41,27 @@ export default function Home() {
           <form action="">
             <CustomButton title='Export as CVV' btnType='submit' containerStyles='mt-5' />
           </form>
-            <div className='w-full border-b flex  border-gray-200 py-3'>
+            <div className='w-full border-b flex mt-10 border-gray-200 py-3'>
                 <div className='w-4/12 pl-4'>
                     <h1 className='text-indigo-600 uppercase font-medium text-sm'>NAME</h1>
                 </div>
-                <div className='w-5/12 pl-4'>
+                <div className='w-6/12 pl-4'>
                     <h1 className='text-indigo-600 uppercase font-medium text-sm'>ROLES</h1>
                 </div>
-                <div className='w-3/12 pl-4'>
+                <div className='w-2/12 pl-4'>
                     <h1 className='text-indigo-600 uppercase font-medium text-sm'>Joined at</h1>
                 </div>
             </div>
+</div>
 
-
-          <div className='w-full flex flex-col mt-10'>
+          <div className='w-full flex flex-col '>
             {Members.map((member) => (
                 <Member image={member.profile} roles={member.roles} date={member.date} name={member.name}/>
             ))}
             
           </div>
           
-        </div>
+        
       </Container>
     </main>
   );

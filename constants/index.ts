@@ -301,7 +301,6 @@ export const Members = [
         roles:[
             'chef technology officer',
             'golden community',
-            
         ],
         date:'June 7,2030'
     }
