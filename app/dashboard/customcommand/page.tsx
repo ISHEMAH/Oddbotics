@@ -9,13 +9,19 @@ import {CustomButton} from '@/components';
 import {InputElement} from '@/components'
 import {ContactInput} from '@/components';
 import {Command} from '@/components'
+import { log } from 'console';
 
 
 
 export default function Home() {
   const [editClick, setEditClick] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false)
   const toggleEdit = () => {
     setEditClick(!editClick);
+  };
+  const toggleNav = () => {
+    setToggleMenu(!toggleMenu);
+    console.log("adi")
   };
   const [botName, setBotName] = useState('');
 
@@ -24,11 +30,12 @@ export default function Home() {
 
   };
 
+
   return (
     <main className=' flex flex-row h-screen   w-full'>
-      <Navside editClick={toggleEdit} botName={botName} active='Custom Command'/>
+      <Navside editClick={toggleEdit} botName={botName} active='Custom Command' toggle={toggleMenu} />
       {editClick && <Editname editClick={toggleEdit} setBotName={handleBotName} />}
-      <Container>
+      <Container menuClick={toggleNav} active={toggleMenu}>
         <Heading icon='/whitecustomcommand.svg' title='Custom Commands' description='Create custom slash commands'/>
         <div className='w-full flex flex-col mt-6'>
           <h1 className='w-full font-bold text-lg '>Create commands</h1>

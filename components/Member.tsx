@@ -11,7 +11,7 @@ const Member = ({image,name,roles,date}:MemberProps) => {
                 </div>
                 <div className='w-6/12 pl-4 flex gap-3 items-center'>
                 {Object.values(roles).map((role,index) => (
-                        <div className={`w-fit flex p-2 items-center justify-center rounded-lg ${role == 'golden community' ? "bg-green-600/10 text-green-700": "bg-indigo-600/10 text-indigo-600"} ${role == 'chef technology officer' ? 'bg-teal-300/10 text-cyan-400': "bg-indigo-600/10 text-indigo-600"}`} key={index}>
+                        <div className={`w-fit flex p-2 items-center justify-center rounded-lg ${role == "golden community" ? "bg-green-600/10 text-green-700": "bg-indigo-600/10 text-indigo-600"} ${role == 'chef technology officer' && 'bg-teal-300/10 text-cyan-400'}`} key={index}>
                 
                     <p className='text-xs uppercase'>{role}</p>
             </div>

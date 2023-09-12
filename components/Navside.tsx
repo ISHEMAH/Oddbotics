@@ -9,9 +9,10 @@ import { FeaturedLinks } from '@/constants';
 
 
 
-const Navside = ({ editClick, botName,active}: NavsideProps) => {
+const Navside = ({ editClick, botName,active,toggle}: NavsideProps) => {
   return (
-    <nav className='bg-white lg:w-3/12 w-80 p-4 h-screen relative overflow-scroll items-center flex flex-col rounded-tr-3xl rounded-br-3xl'>
+    <nav className={`bg-white lg:w-3/12 w-80 p-4 h-screen max-lg:absolute fadein slidein z-50 ${toggle ? 'flex' : 'max-lg:hidden' } relative overflow-scroll items-center flex flex-col rounded-tr-3xl rounded-br-3xl`}>
+
       <div className='w-full sticky bg-white/10'>
 
         <div className='w-full flex flex-row justify-between'>

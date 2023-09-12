@@ -65,7 +65,8 @@ export interface MenuCardProps{
 export interface NavsideProps{
     editClick: () => void;
     botName: string;
-    active:string
+    active:string;
+    toggle:boolean
 }
 export interface InputProps{
     placeholder:string,
