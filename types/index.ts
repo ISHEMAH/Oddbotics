@@ -87,3 +87,8 @@ export interface MemberProps{
     roles:string[],
     date:string
 }
+export interface ExampleProps{
+    image:string,
+    title:string,
+    description:string
+}

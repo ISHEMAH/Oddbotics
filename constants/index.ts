@@ -419,3 +419,26 @@ export const FeaturedLinks=[
         link:'/dashboard/announcements'
     },
 ]
+
+export const Examples =[
+    {
+        title:"How to:Assign a role when a user sends their message",
+        cover:"/laptop.png",
+        description:"Assign a role to a user when they send their message.Assign a role to a user when they send their message.Assign a role to a user when they send their message.Assign a role to a user when they send their message."
+    },
+    {
+        title:"How to:Assign a role when a user sends their message",
+        cover:"/laptop.png",
+        description:"Assign a role to a user whe role to a user when they send their message.Assign a role to a user when they send their message.Assign a role to a user when they send their message."
+    },
+    {
+        title:"How to:Assign a role when a user sends their message",
+        cover:"/laptop.png",
+        description:"Assign a rolo a user when they send their message.Assign a role to a user when they send their message.Assign a role to a user when they send their message."
+    },
+    {
+        title:"How to:Assign a role when a user sends their message",
+        cover:"/laptop.png",
+        description:"Assig to a user when they send their message.Assign a role to a user when they send their message."
+    },
+]
