@@ -11,7 +11,7 @@ import { PricingDetails } from '@/constants';
 export default function Home() {
 
   return (
-    <main className='flex max-md:flex-col justify-between lg:p-7 h-full p-3'>
+    <main className='flex max-md:flex-col relative justify-between lg:p-7 h-screen p-3'>
       <div className='md:w-3/12  w-full gap-10 flex flex-col relative justify-between  rounded-2xl gradient'>
         <div className='p-8 w-full gap-20 flex flex-col'>
 
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <Image src='hey.svg' width={300} height={400} className='absolute bottom-0 hidden md:flex right-0' alt='side'/>
       </div>
-      <div className='md:w-8/12 h-full items-center max-md:mt-7 flex gap-12 flex-col justify-center w-full'>
+      <div className='md:w-8/12 relative h-full items-center max-md:mt-7 flex gap-12 flex-col lg:justify-center w-full'>
         <div className='w-full flex flex-col gap-4'>
           <h1 className='text-md font-extrabold '>Step 2</h1>
           <p className='text-md font-medium'>Select Your Plan</p>

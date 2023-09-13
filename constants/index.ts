@@ -358,7 +358,7 @@ export const MainLinks=[
     {
         icon:'customwelcomer.svg',
         title:'Custom Welcomer',
-        link:'/dashboard/customwelcome'
+        link:'/dashboard/customwelcomer'
     },
     {
         icon:'faq.svg',

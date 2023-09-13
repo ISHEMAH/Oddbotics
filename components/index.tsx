@@ -19,7 +19,8 @@ import Heading from "./Heading";
 import InputElement from "./InputElement";
 import Command from "./Command";
 import Member from "./Member";
+import FileUploader from "./FileUploader";
 
 export {
-    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput,MenuCard,Editname,Heading,InputElement,Command,Member
+    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput,MenuCard,Editname,Heading,InputElement,Command,Member,FileUploader
 }

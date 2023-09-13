@@ -72,7 +72,8 @@ export interface InputProps{
     placeholder:string,
     type:'text'|'email',
     label:string,
-    name:string
+    name:string,
+    additionStyles?:string
 }
 
 export interface HeadingProps{

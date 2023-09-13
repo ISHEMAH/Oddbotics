@@ -15,7 +15,7 @@ export default function Home() {
   }
 
   return (
-    <main className='flex max-md:flex-col justify-between lg:p-7 h-full p-3'>
+    <main className='flex max-md:flex-col justify-between lg:p-7 h-screen p-3'>
       <div className='md:w-4/12  w-full gap-10 flex flex-col relative justify-between  rounded-2xl gradient'>
         <div className='p-8 w-full gap-20 flex flex-col'>
 

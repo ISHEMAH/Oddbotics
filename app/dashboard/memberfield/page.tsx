@@ -10,6 +10,7 @@ import {InputElement} from '@/components'
 import {ContactInput} from '@/components';
 import {Member} from '@/components'
 import { Members } from '@/constants';
+import Image from 'next/image';
 
 
 
@@ -32,21 +33,29 @@ export default function Home() {
 
   return (
     <main className=' flex flex-row h-screen w-full'>
-      <Navside editClick={toggleEdit} botName={botName} active='Member Tracker' toggle={toggleMenu}/>
+      <Navside editClick={toggleEdit} botName={botName} active='Member Field' toggle={toggleMenu}/>
       {editClick && <Editname editClick={toggleEdit} setBotName={handleBotName} />}
       <Container menuClick={toggleNav} active={toggleMenu}>
-        <Heading icon='/whitemembertracker.svg' title='Members' description='View your server members'/>
-        <div className='w-full flex flex-col  mt-6'>
+        <Heading icon='/whitememberfield.svg' title='Member Field' description='View your server members'/>
+        <div className='w-full flex flex-col mt-6'>
         <div className='flex justify-between w-full max-sm:flex-col items-center'>
-            <h1 className='font-bold text-lg '>Members</h1>
-            <form action="" className='w-60'>
-              <ContactInput icon='/search.svg' type='text' name='commandsearch' placeholder='Search' Width='72'/>
-            </form>
+            <h1 className='font-bold text-lg '>Member Field</h1>
+            <div className='flex gap-5 max-md:flex-col-reverse'>
+                <form action="" className='w-60'>
+                    <ContactInput icon='/search.svg' type='text' name='commandsearch' placeholder='Search' Width='72'/>
+                </form>
+                
+                <button className='flex px-3 text-white max-md:py-4 bg-indigo-700 items-center justify-center rounded-md group hover:scale-95 duration-200 transition-all ease-out gap-2'>
+                    <Image width={15} height={15} src='/add.svg' alt='add'/>
+                    <p>Member Field</p>
+                </button>
+            </div>
+            
           </div>
           <form action="">
             <CustomButton title='Export as CVV' btnType='submit' containerStyles='mt-5 max-sm:w-full' />
           </form>
-          <div className='flex w-full flex-col overflow-x-scroll '>
+          <div className='flex w-full flex-col max-lg:overflow-x-scroll '>
           <div className='flex w-full flex-col min-w-[700px]'>
             <div className='w-full border-b flex mt-10 border-gray-200 py-3 '>
                 <div className='w-4/12 pl-4'>
@@ -60,12 +69,6 @@ export default function Home() {
                 </div>
             </div>
 
-
-          <div className='w-full flex flex-col '>
-            {Members.map((member) => (
-                <Member image={member.profile} roles={member.roles} date={member.date} name={member.name}/>
-            ))}
-          </div>
           </div>
             
           </div>
