@@ -92,3 +92,8 @@ export interface ExampleProps{
     title:string,
     description:string
 }
+export interface ToggleInputProps{
+    label:string,
+    decription:string,
+    
+}

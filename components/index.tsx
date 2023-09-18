@@ -23,7 +23,8 @@ import FileUploader from "./FileUploader";
 import Example from "./Example";
 import SupportCard from "./SupportCard";
 import Song from "./Song";
+import ToggleSwitch from "./ToggleSwitch";
 
 export {
-    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput,MenuCard,Editname,Heading,InputElement,Command,Member,FileUploader,Example,SupportCard,Song
+    Navbar,CustomButton,Sidebar,Hero,Three,Header,Aboutus,Features,Pricing,Contactus,Testimonials,PricingCard,Footer,PlanCard,ContactInput,MenuCard,Editname,Heading,InputElement,Command,Member,FileUploader,Example,SupportCard,Song,ToggleSwitch
 }

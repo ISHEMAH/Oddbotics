@@ -23,6 +23,7 @@
     "react-dropzone": "^14.2.3",
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
+    "react-switch": "^7.0.0",
     "slick-carousel": "^1.8.1",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6",
