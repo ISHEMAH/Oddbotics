@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import { ContactInput, CustomButton } from '@/components';
 import { PricingDetails } from '@/constants';

@@ -67,7 +67,7 @@ export const PricingDetails = [
         buttonText:'1 Month Subscription',
         color:'black',
         bg:'bg-white',
-        button:'Black.svg',
+        button:'/Black.svg',
         otherColor:true,
         description:'For beginners',
         pagelink:"/plan/basicplan"
@@ -87,7 +87,7 @@ export const PricingDetails = [
         period:'Month',
         color:'indigo-600',
         bg:'bg-white',
-        button:'color.svg',
+        button:'/color.svg',
         otherColor:true,
         description:'For beginners',
         pagelink:'/plan/classicplan'
@@ -107,7 +107,7 @@ export const PricingDetails = [
         period:'Month',
         bg:'bg-indigo-700',
         color:'white',
-        button:'White.svg',
+        button:'/White.svg',
         otherColor:false,
         description:'For beginners',
         pagelink:'/plan/masterplan'
@@ -424,12 +424,12 @@ export const Examples =[
     {
         title:"How to:Assign a role when a user sends their message",
         cover:"/laptop.png",
-        description:"Assign a role to a user when they send their message.Assign a role to a user when they send their message.Assign a role to a user when they send their message.Assign a role to a user when they send their message."
+        description:"eygsudbhcjsbhdcyibshssage."
     },
     {
         title:"How to:Assign a role when a user sends their message",
         cover:"/laptop.png",
-        description:"Assign a role to a user whe role to a user when they send their message.Assign a role to a user when they send their message.Assign a role to a user when they send their message."
+        description:"sign a role to a user when they send their message.Assign a role to a user when they send their message."
     },
     {
         title:"How to:Assign a role when a user sends their message",
@@ -439,6 +439,6 @@ export const Examples =[
     {
         title:"How to:Assign a role when a user sends their message",
         cover:"/laptop.png",
-        description:"Assig to a user when they send their message.Assign a role to a user when they send their message."
+        description:"Assig sdsdsdsdsdign a role to a user when they send their message."
     },
 ]
