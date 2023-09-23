@@ -97,3 +97,7 @@ export interface ToggleInputProps{
     decription:string,
     
 }
+
+export type CustomOmitWithTag<T, K, S> = OmitWithTag<T, K, S> & {
+    acceptedFile: File[];
+  };  

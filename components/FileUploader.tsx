@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import Image from 'next/image';
@@ -25,7 +27,7 @@ function FileUploader({ onFilesUploaded }: FileUploaderProps) {
   });
 
   return (
-    <div {...getRootProps()} className="dropzone h-40 bg-indigo-600/5 rounded-md cursor-pointer border-dashed border border-gray-400 mt-5 items-center flex justify-center">
+    <div {...getRootProps()} className="dropzone h-96 bg-indigo-600/5 rounded-md cursor-pointer border-dashed border border-gray-400 mt-5 items-center flex justify-center">
       <input {...getInputProps()} />
       {filePreview ? (
         <div className='w-full h-full overflow-hidden border '>

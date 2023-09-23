@@ -54,6 +54,8 @@ export const AllFeatures = [
     },
 ]
 
+
+
 export const PricingDetails = [
     {
         cover:"/Basic.png",

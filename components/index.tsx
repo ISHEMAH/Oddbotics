@@ -1,3 +1,5 @@
+"use client"
+
 import CustomButton from "./CustomButton";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";

@@ -1,4 +1,4 @@
-// components/ToggleSwitch.js
+"use client"
 import React, { useState } from 'react';
 import Switch from 'react-switch';
 
