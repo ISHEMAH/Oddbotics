@@ -30,10 +30,10 @@ export default function Home() {
     setBotName(value);
 
   };
-  const [uploadedFiles, setUploadedFiles] = useState<File[]>([]);
+  const [uploadedFiles, setUploadedFiles] = useState<File[] | null>([]);
   
-    const handleFilesUploaded = (acceptedFile:File[]) => {
-      setUploadedFiles(acceptedFile);
+    const handleFilesUploaded = (acceptedFile:File[]|null) => {
+      setUploadedFiles(acceptedFile); 
     };
 
 
@@ -59,7 +59,7 @@ export default function Home() {
                 
                 <FileUploader onFilesUploaded={handleFilesUploaded}/>
                 <ul>
-                    {uploadedFiles.map((file) => (
+                    {uploadedFiles && uploadedFiles.map((file) => (
                     <li key={file.name}>{file.name}</li>
                     ))}
                 </ul>
