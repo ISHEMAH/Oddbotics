@@ -11,7 +11,6 @@ import {ContactInput} from '@/components';
 import {Command} from '@/components'
 import {FileUploader} from '@/components'
 
-
 export default function Home() {
   const [editClick, setEditClick] = useState(false);
   const [toggleMenu, setToggleMenu] = useState(false)

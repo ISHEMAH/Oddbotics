@@ -8,7 +8,7 @@ interface FileUploaderProps {
   onFilesUploaded: (acceptedFiles: File[]) => void;
 }
 
-function FileUploader({ onFilesUploaded }: FileUploaderProps) {
+const FileUploader = ({ onFilesUploaded }: FileUploaderProps) => {
   const [filePreview, setFilePreview] = useState<string | null>(null);
 
   const { getRootProps, getInputProps } = useDropzone({
