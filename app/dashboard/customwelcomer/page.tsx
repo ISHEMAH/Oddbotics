@@ -11,11 +11,8 @@ import {ContactInput} from '@/components';
 import {Command} from '@/components'
 import {FileUploader} from '@/components'
 
-interface FileUploaderProps {
-    acceptedFile: File[]
-  }
 
-export default function Home({acceptedFile}:FileUploaderProps) {
+export default function Home() {
   const [editClick, setEditClick] = useState(false);
   const [toggleMenu, setToggleMenu] = useState(false)
   const toggleEdit = () => {
