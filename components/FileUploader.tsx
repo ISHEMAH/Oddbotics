@@ -13,7 +13,7 @@ const FileUploader = ({ onFilesUploaded }: FileUploaderProps) => {
 
   const { getRootProps, getInputProps } = useDropzone({
     onDrop: (acceptedFiles) => {
-      // Assuming only one file is selected
+
       const file = acceptedFiles[0];
       if (file) {
         const reader = new FileReader();
