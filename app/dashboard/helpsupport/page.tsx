@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <main className=' flex flex-row h-screen   w-full'>
-      <Navside editClick={toggleEdit} botName={botName} active='Custom Command' toggle={toggleMenu} />
+      <Navside editClick={toggleEdit} botName={botName} active='Help & Support' toggle={toggleMenu} />
       {editClick && <Editname editClick={toggleEdit} setBotName={handleBotName} />}
       <Container menuClick={toggleNav} active={toggleMenu}>
         <Heading icon='/whitecustomcommand.svg' title='Custom Commands' description='Create custom slash commands'/>
