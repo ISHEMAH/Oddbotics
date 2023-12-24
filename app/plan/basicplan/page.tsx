@@ -32,7 +32,9 @@ export default function Home() {
                   <p >{plan.title == 'Basic Plan' ? ` $${plan.price} ` :null}</p>
                 </div>
               ))}
+              <Link href='/dashboard/customcommand'>
             <CustomButton title="Make payment" btnType="submit" containerStyles="py-6 w-full" />
+          </Link>
           </form>
         </div>
 

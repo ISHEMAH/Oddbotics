@@ -19,7 +19,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   scroll-behavior: smooth;
 }
 
@@ -103,4 +103,30 @@ html {
 .cardgradient{
   background: linear-gradient(143deg, rgba(82, 0, 255, 0.12) 0%, rgba(165, 122, 255, 0.11) 76.17%, rgba(255, 255, 255, 0.00) 113.98%);
   box-shadow: 0px 4px 46px -2px rgba(0, 0, 0, 0.06);
+}
+
+#features ::-webkit-scrollbar-thumb{
+ background-color: transparent;
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+/* Customize the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(194, 192, 232); /* Set the color of the scrollbar thumb */
+  border-radius: 400px; /* Set the border radius of the thumb */
+  transition: all 500ms;
+}
+
+/* Customize the scrollbar track when the handle is being dragged */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Customize the scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(161, 158, 227); /* Set the color of the scrollbar thumb on hover */
 }

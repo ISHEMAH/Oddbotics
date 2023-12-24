@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Image from 'next/image'
 import CustomButton from './CustomButton'
+import Link from 'next/link'
 
 const Aboutus = () => {
   return (
@@ -29,7 +30,9 @@ const Aboutus = () => {
           </div>
           <p className='text-gray-600 font-regular '>Our Discord bot is your all-in-one solution for managing your server. With features like custom commands, automated moderation, and customizable alerts, our bot makes it easy to keep your server running smoothly and efficiently.Looking for a fun and engaging way to connect with your community on Discord? Our bot has a variety of games and interactive features that will keep your users engaged and coming back for more.</p>
           <p className='text-gray-600 font-regular mt-5 hidden lg:flex'>Are you tired of manually managing your Discord server? Let our bot do the heavy lifting for you! Our advanced automation features make it easy to schedule messages, assign roles, and more.Say goodbye to spam and trolls on your Discord server. Our bot's powerful moderation tools allow you to easily manage users, delete messages, and enforce server rules with just a few clicks.</p>
-          <CustomButton title='Get Bot' containerStyles='w-fit px-4 mt-6'/>
+          <Link href='/verifytoken'>
+            <CustomButton title='Get Bot' containerStyles='w-fit px-4 mt-6'/>
+          </Link>
         </div>
         <div className='md:flex-row flex  flex-col relative md:w-6/12'>
           <Image
@@ -59,7 +62,9 @@ const Aboutus = () => {
             <h3 className="text-xl font-bold text-indigo-600 lg:text-2xl">Powerful Bots</h3>
           </div>
           <p className='text-gray-600 font-regular '>Our bot service is designed to help you streamline your workflow and save time. Our powerful bots automate repetitive tasks and eliminate errors, so you can focus on more important work. Our bots are easy to set up and can be customized to your unique needs.</p>
+          <Link href='/verifytoken'>
           <CustomButton title='Purchase' containerStyles='w-fit px-4 mt-6'/>
+          </Link>
         </div>
         <div className='flex flex-col justify-center items-center relative lg:w-6/12 w-full max-sm:mt-5'>
           <Image
