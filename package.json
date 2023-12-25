@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource-variable/montserrat": "^5.0.17",
     "@react-three/fiber": "^8.13.6",
     "@types/node": "20.4.9",
     "@types/react": "18.2.20",
